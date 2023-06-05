@@ -89,8 +89,8 @@ button{
 .box2,
 .box3,
 .box4{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .randinfo{
@@ -119,14 +119,11 @@ div.cen{
 .subtext{
     display: block;
     text-align: center;
+    font-size: 10px;
 }
 
 #img1{
     margin-left: 9px;
-}
-
-#p1{
-    padding-left: 05px;
 }
 
 .box3{

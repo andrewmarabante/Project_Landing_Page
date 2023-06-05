@@ -10,51 +10,65 @@
         <div class="box1">
 
             <header>
-                <div>Header Logo</div>
+                <div class="headlogo">Header Logo</div>
                 <ul>
                     <li>header link 1</li>
                     <li>header link 2</li>
                     <li>header link 3</li>
                 </ul>
             </header>
-
-            <div class="main">              
-                <h1>This Website Is Awesome</h1>
-                <p> This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign Up</button>
-                <img src="" alt="This is a placeholder for an image">
-            </div>  
-
+            <div class="container">                    
+                <div class="main">              
+                    <h1>This website is awesome</h1>
+                    <p class="toptext"> This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button>Sign Up</button>
+                </div>  
+                <img id="topimg" src="" alt="This is a placeholder for an image" >    
+                    
+            </div>
         </div>
             
         <div class="box2">
-            <h2>Some random information.</h2>
+            <h2 class="randinfo">Some random information.</h2>
 
-            <div class="info"></div>
-                <img src="" alt="img1">
-                <p>This is some subtext under an illustration or image</p>
-                <img src="" alt="img2">
-                <p>This is some subtext under an illustration or image</p>
-                <img src="" alt="img2">
-                <p>This is some subtext under an illustration or image</p>
-                <img src="" alt="img2">
-                <p>This is some subtext under an illustration or image</p>
+            <div class="info">
+                <div class="cen">
+                    <img id="img1" class="box2imgs" src="" alt="img1">
+                    <p id="p1" class="subtext">This is some subtext under an illustration or image</p>
+                </div>  
+                <div class="cen"> 
+                    <img class="box2imgs" src="" alt="img2">
+                    <p class="subtext">This is some subtext under an illustration or image</p>
+                </div> 
+                <div class="cen"> 
+                    <img class="box2imgs" src="" alt="img3">
+                    <p class="subtext">This is some subtext under an illustration or image</p>
+                </div>
+                <div class="cen">
+                    <img class="box2imgs" src="" alt="img4">
+                    <p class="subtext">This is some subtext under an illustration or image</p>
+                </div>
             </div>
         </div>
 
         <div class="box3">
 
-            <h2>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h2>
-            
-            <p>-Thor, God of Thunder</p>
-            
+            <h2 class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h2>
+                
+            <p class="author">-Thor, God of Thunder</p>
+
         </div>
 
         <div class="box4">
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign Up</button>
-            <footer>copyright &copy The Odin Project 2021</footer>
+            <div class="blue_container">
+                <div class="ads">
+                    <h3 class="CTA">Call to action! It's time!</h3>
+                    <p class="signup">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                    <button class="signbutt">Sign Up</button>
+            </div>
         </div>
+        <footer>copyright &copy The Odin Project 2021</footer>
     </body>
+
 </html>

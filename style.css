@@ -1,9 +1,11 @@
-body{
+.content{
     height: auto;
     font-family: roboto, "times new roman", sans-serif;
     display: flex;
     justify-content: between;
     flex-direction: column;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -157,6 +159,7 @@ div.cen{
     background-color: #3882f6;
     padding: 20px;
     margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 8px;
 }
 
@@ -186,4 +189,20 @@ div.cen{
 .ads{
     padding: 0px;
     margin-left: 50px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #1F2937;
+    font-size: 10px;
+    color: white;
+}
+.blackbox{
+    background-color: black;
+    min-width: 20px;
+}
+body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
 }
